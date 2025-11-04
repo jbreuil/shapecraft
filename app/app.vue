@@ -30,7 +30,12 @@ useSeoMeta({
     <UHeader>
       <template #left>
         <NuxtLink to="/">
-          <AppLogo class="w-auto h-6 shrink-0" />
+          <div class="flex items-center">
+            <UIcon name="i-ph-shapes-bold" class="size-14 bg-primary" />
+            <h1 class="ml-2 font-bold text-4xl text-highlighted">
+              Shape Craft
+            </h1>
+          </div>
         </NuxtLink>
       </template>
 
